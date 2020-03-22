@@ -1,0 +1,9 @@
+---
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: Retain
+    Properties:
+     #Bucket name has to be unique in S3
+     BucketName: vs2020s3bucket
+     AccessControl: PublicRead
