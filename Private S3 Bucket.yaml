@@ -5,5 +5,5 @@ Resources:
     DeletionPolicy: Retain
     Properties:
      #Bucket name has to be unique in S3
-     BucketName: vs2020s3bucket
-     AccessControl: PublicRead
+     BucketName: privates3bucketvs2020
+     AccessControl: Private
