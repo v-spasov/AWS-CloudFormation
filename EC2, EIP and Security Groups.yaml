@@ -6,7 +6,7 @@ Resources:
     Properties:
       AvailabilityZone: us-west-1a
       ImageId: ami-09a7fe78668f1e2c0
-      InstanceType: t2.micro
+      InstanceType: t2.medium
       SecurityGroups:
         - !Ref SSHSecurityGroup
         - !Ref ServerSecurityGroup
